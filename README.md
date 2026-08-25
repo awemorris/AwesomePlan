@@ -1,18 +1,37 @@
-# MWP-Q Agentic Coding Method
+MWP-Q Agentic Coding Method
+===========================
 
-MWP-Q is a file-based planning and execution method for long-running software
-development with coding agents. It keeps the project direction persistent
-across sessions while separating planned work from work that is authorized for
-the current execution cycle.
+MWP-Q (Master-Workstream-Phase-Queue) is a file-based planning and
+execution method for long-running software development with coding
+agents.
+
+Constructs:
+- Master: Software Requirements
+- Workstream: Software Design
+- Phase: Work Instructions
+- Queue: Weekly Meeting
+
+MWP-Q keeps the project direction persistent across sessions while
+separating planned work from work that is authorized for the current
+execution cycle.
+
+## Images
+
+<div align="center">
+  <img src="img/1.png" width="300px">
+  <img src="img/2.png" width="300px">
+  <img src="img/3.png" width="300px">
+  <img src="img/4.png" width="300px">
+</div>
 
 ## The four Books
 
-| Book | Role | Question it answers |
-| --- | --- | --- |
-| M — Master | Project strategy, scope, milestones, and Workstreams | Where are we going? |
-| W — Workstream | One substantial development outcome and its Phases | What must this Workstream achieve? |
-| P — Phase | A bounded, executable, verifiable plan | How will this step be completed? |
-| Q — Queue | The current execution manifest | What may the agent work on now? |
+| Book            | Role                                                 | Question it answers                |
+|-----------------|------------------------------------------------------|------------------------------------|
+| M — Master     | Project strategy, scope, milestones, and Workstreams | Where are we going?                |
+| W — Workstream | One substantial development outcome and its Phases   | What must this Workstream achieve? |
+| P — Phase      | A bounded, executable, verifiable plan               | How will this step be completed?   |
+| Q — Queue      | The current execution manifest                       | What may the agent work on now?    |
 
 ```text
 M/W/P = planning hierarchy
