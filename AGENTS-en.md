@@ -300,6 +300,20 @@ The Q Book is built from eligible Phases after considering:
 - whether human judgment is likely to be required,
 - and whether the work can reasonably be completed or meaningfully advanced during the current execution cycle.
 
+Carve Queue work out only where all known product, scope, risk, and major
+architecture decisions have already been resolved. A Queue item must be scoped
+so that the agent can implement and verify it without additional human
+judgment.
+
+Do not combine a decision that belongs to a human with the work that depends
+on that decision in one Queue item. Keep decision-dependent work in M/W/P until
+the decision is made and reflected in the P Book's assumptions, approach, and
+completion criteria; then select only the decision-cleared portion into Q.
+
+If execution reveals a new need for human judgment, do not guess. Mark the
+item `uncleared`, record the decision point and resume condition, and continue
+with any remaining Queue work that does not depend on that decision.
+
 The Q Book should primarily point to P Books rather than duplicate them.
 
 Example:
@@ -625,9 +639,13 @@ Consider:
 8. likelihood of requiring human judgment,
 9. ability to verify the result.
 
-Prefer work that can proceed autonomously within the agreed timebox.
+Carve work out of Phases so that implementation and verification can finish
+autonomously within the agreed timebox.
 
-Do not intentionally schedule work that is already known to require an unresolved human decision.
+Do not schedule work already known to require an unresolved human decision. If
+only part of a Phase is decision-cleared, state that boundary and its completion
+criteria in the P Book and select only that part into the Queue. Leave the
+decision-dependent remainder in M/W/P.
 
 The Queue may contain Phases from different Workstreams.
 
