@@ -11,7 +11,7 @@ a web URL can acquire and apply the skill directly with a prompt like this:
 
 ```text
 Read and acquire the Awesome Plan agent skill from:
-https://raw.githubusercontent.com/awemorris/MWP-Q-Agentic-Coding-Method/main/awesome-plan.md
+https://raw.githubusercontent.com/awemorris/AwesomePlan/main/awesome-plan.md
 
 Inspect this repository before asking questions. Follow the adoption and
 initial-deployment procedure in the skill. Ask whether I want GitHub mode or
